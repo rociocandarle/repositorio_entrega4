@@ -1,0 +1,45 @@
+/*colores: 
+
+	ladrillo: #A1492B
+	arena: #D1AF8E
+	gris oscuro: #3D3D3C
+	nude oxido: #C98F55
+	piedra: #C1C7C1
+	verde: #616E1A */
+
+$color-footer: #D1AF8E;
+$color-header: #3D3D3C;
+$color-nav: #A1492B;
+$color-bem: #C1C7C1;
+$color-botones: #616E1A;
+$color-nude: #C98F55;
+
+$font-header: 'Karla', sans-serif;
+$font-menu: 'Poppins', sans-serif;
+$font-footer: 'Roboto';
+
+@for $n from 0 through 10 {
+    .mar_l_#{$n} {
+        margin-left: .5rem * $n;
+    }
+}
+
+@for $n from 0 through 10 {
+    .mar_r_#{$n} {
+        margin-right: .5rem * $n;
+    }
+}
+
+@for $n from 0 through 10 {
+    .mar_t_#{$n} {
+        margin-top: .5rem * $n;
+    }
+}
+
+@for $n from 0 through 10 {
+    .mar_b_#{$n} {
+        margin-bottom: .5rem * $n;
+    }
+}
+
+

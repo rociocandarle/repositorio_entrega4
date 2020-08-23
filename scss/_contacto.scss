@@ -1,0 +1,20 @@
+/*CONTACTO*/
+@import "variables";
+h4 {
+	color: $color-nav;
+	display: flex;
+	font-family: $font-header;
+	font-size: 18px;	
+	font-weight: lighter;
+	justify-content: center;
+	margin-bottom: 1rem;
+}
+
+
+form {
+	color: $color-nude;
+	font-family: $font-header;
+	font-size: 17px;	
+	font-weight: lighter;
+	margin: 2rem 2rem 2rem 2rem;
+}

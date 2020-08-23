@@ -1,0 +1,12 @@
+/*TALLERES*/
+
+div .container table {
+	max-width: 80%;
+	margin-bottom: 5rem;
+}
+
+@media screen and (max-width: 80%) {
+	div .container table {
+		max-width: 50%
+	}
+}
